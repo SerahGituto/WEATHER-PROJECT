@@ -1,0 +1,54 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  display: flex;
+}
+button {
+  background: #ececec;
+  border: 0.5px;
+  border-radius: 25px;
+  padding: 7px;
+}
+.city {
+  padding: 12px;
+  top: 3px;
+  line-height: 10px;
+}
+.container {
+  width: 50%;
+  padding: 3%;
+  margin-left: 8%;
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  border-radius: 10px;
+}
+.units {
+  position: relative;
+  font-size: 15px;
+  top: -35px;
+  margin-left: 20%;
+}
+.one {
+  font-weight: bold;
+  font-size: 30px;
+}
+#day {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+  font-size: smaller;
+}
+#prop {
+  padding: 20px;
+}
+#temperature {
+  font-weight: bolder;
+  font-size: 35px;
+}
+#sky {
+  font-size: small;
+}
